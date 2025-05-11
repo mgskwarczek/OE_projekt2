@@ -91,6 +91,10 @@ Funkcja Hyperellipsoid jest funkcją unimodalną z jednym globalnym minimum w pu
 ### 4. Funkcje CEC 2014
 
 Dodatkowo wykorzystano funkcje testowe z biblioteki CEC 2014, które stanowią bardziej zaawansowane i złożone przypadki testowe.
+Wykorzystano funkcje F3 (Shifted Rotated High Conditioned Elliptic Function):
+   func = cec_based.cec2014.F32014(ndim=10)
+w wymiarach n=10 i n=30. Funkcja ta jest silnie warunkowana i rotowana, co utrudnia dekompozycję wymiarów przez algorytm. Dodanie biblioteki CEC 2014 znacznie ułatiwa porównywanie wyników.
+
 
 ## Wymagania środowiska
 
